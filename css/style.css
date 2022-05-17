@@ -1108,3 +1108,9 @@ nav .box1 .inner  .menu2  p a span{
     footer .f_bottom .inner div:nth-of-type(2) p:first-child{
         margin-bottom: 5px;
     }
+    footer .f_bottom .inner div:nth-of-type(2){
+        background-image: url(../images/diones_logo.png);
+        background-repeat: no-repeat;
+        background-size: 12%;
+        background-position: right top;
+    }
