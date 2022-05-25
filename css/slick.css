@@ -120,10 +120,6 @@
 
 /*메인 슬라이드 css*/
 /* Slider */
-.slick-loading .slick-list
-{
-    background: #fff url('./ajax-loader.gif') center center no-repeat;
-}
 
 /* Icons */
 /* Arrows */
