@@ -277,9 +277,10 @@ nav .inner  p a{
 nav h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 64px;
     text-align: center;
     color:#F0E9F1;
+    padding: 20px 0;
 }
 nav .menui{
     display: flex;
@@ -307,7 +308,7 @@ header.fix{
     box-shadow: 10px 0px 10px #00000025
 }
 header.fix h2{
-    color: #555555;
+    color: #000;
 }
 header.fix nav .nav img:first-child{
     content: url("./images/2x/Artboard 12@2x.png");
@@ -361,7 +362,7 @@ header .box1 .menu34 ul li{
     margin-bottom: 10px;
     font-size: 36px;
     font-weight: 400;
-    color: #F0E9F1;
+    color: #Fff;
     opacity: 0.5;
     transition: opacity 0.5s;
     width: auto;
@@ -457,9 +458,9 @@ nav .box1 .inner  p a{
 nav .box1 h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 64px;
     text-align: center;
-    color:#F0E9F1;
+    color:#Fff;
 }
 nav .box1 .menui{
     display: flex;
@@ -977,27 +978,27 @@ nav .box1 .inner  .menu2  p a span{
         top:10%;
         z-index: 999;
     }
-    #notice .notice_s a{
+    #notice .inner .notice_s a{
         display: block;
         position: relative;
         width: 375px;
         
     }
-    #notice .notice_s img{
+    #notice .inner .notice_s img{
         width: 375px;
-        box-shadow: 4px 4px 4px #00000025;
+        box-shadow: 8px 8px 8px #00000025;
     }
-    #notice .text{
+    #notice .inner .text{
         text-align: center;
         z-index: 99999999999999;
         top : 43px;
         position: absolute;
         left: 25%;
     }
-    #notice .text2{
+    #notice .inner .text2{
         left:20%
     }
-    #notice .text3{
+    #notice .inner .text3{
         left:15%;
     }
     #notice .text p:first-child{
@@ -1095,22 +1096,22 @@ nav .box1 .inner  .menu2  p a span{
         margin-bottom: 200px;
     }
     footer .f_bottom .inner div:first-child p{
-        font-size: 30px;
-        margin-right: 80px;
+        font-size: 20px;
+        margin-right: 40px;
     }
     footer .f_bottom .inner div:nth-of-type(2) p:last-child{
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
     footer .f_bottom .inner div:nth-of-type(2) p{
-        font-size: 20px;
+        font-size: 14px;
     }
     footer .f_bottom .inner div:nth-of-type(2) p:first-child{
         margin-bottom: 5px;
     }
-    footer .f_bottom .inner div:nth-of-type(2){
+    footer .f_bottom .inner{
         background-image: url(../images/diones_logo.png);
         background-repeat: no-repeat;
         background-size: 12%;
-        background-position: right top;
+        background-position: right center;
     }

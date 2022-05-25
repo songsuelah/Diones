@@ -339,7 +339,10 @@
 #choice .slick-dots{
     position: absolute;
     right: -42.5%;
-    bottom: -20%;
+    bottom: 28%;
+}
+#choice .slick-list.draggable{
+    height: 928px;
 }
 #choice .slick-dots li.slick-active button:before
 {
@@ -416,6 +419,12 @@ border-radius: 50%;
 #notice .slick-slider{
     right: -28%;
     top: -200px;
+}
+#notice .slick-list.draggable{
+    height: 500px;
+}
+#notice .slick-slide .slick-current .slick-active{
+    width: 500px;
 }
 #notice .slick-arrow{
     top:50%;
