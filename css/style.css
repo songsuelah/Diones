@@ -30,8 +30,8 @@
   
 
   .box {width:100%;margin:0 auto; position: relative; margin-bottom: 300px;}
-  .box .slider{display: block;}
-  .box .slider-nav{width:100%;}
+  .box .slider{display: flex;}
+  .box .slider-nav{width:100%; display: block;}
   .slider-for.slider.inner.slick-initialized.slick-slider {
       display: flex;
       width: 440px;
