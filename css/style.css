@@ -63,7 +63,7 @@ body #wrap .q_m .closeq{
 body #wrap .q_m .click{
     width: 138px;
     height: 138px;
-    background-color: #f0e9f1;
+    background-color: #F9E0E6;
     border-radius: 50%;
     
 }
@@ -84,8 +84,8 @@ body #wrap .q_m .click .open p{
     text-align: center;
 }
 body #wrap .q_m .click .open:hover p{
-    color: #694176;
-    border-bottom: #694176 2px solid;
+    color: #8A4683;
+    border-bottom: #8A4683 2px solid;
 }
 body #wrap .q_m .click .qm{
     display: none;
@@ -108,17 +108,17 @@ body #wrap .q_m.open .closs12{
     font-weight: 400;
     font-size: 24px;
     position: relative;
-    border: #694176 2px solid;
-    color: #694176;
+    border: #8A4683 2px solid;
+    color: #8A4683;
     margin-left: 20px;
     margin-right: 20px;
     padding: 5px 0;
-    background-color: #F0E9F1;
+    background-color: #F9E0E6;
     display: block;
 }
 body #wrap .q_m.open .closs12 p{
     display: block;
-    background-color: #F0E9F1;
+    background-color: #F9E0E6;
 }
 
 body #wrap .q_m.open .click{
@@ -149,7 +149,7 @@ body #wrap .q_m.open .qm div h2{
     line-height: 75px;
     padding-right: 10px;
     margin-left: 10px;
-    color: #694176;
+    color: #8A4683;
 }
 body #wrap .q_m.open .qm div .listq{
     width: 480px;
@@ -160,12 +160,12 @@ body #wrap .q_m.open .qm div .listq::-webkit-scrollbar{
     height: 5px;
 }
 body #wrap .q_m.open .qm div .listq::-webkit-scrollbar-thumb{
-    background-color: #694176;
+    background-color: #8A4683;
     border-radius: 20px;
 
 }
 body #wrap .q_m.open .qm div .listq::-webkit-scrollbar-track{
-    background-color: #F0E9F1;
+    background-color: #F9E0E6;
     border-radius: 20px;
 }
 body #wrap .q_m.open .qm div ul{
@@ -187,22 +187,22 @@ body #wrap .q_m.open .qm div:nth-of-type(3) ul{
 }
 body #wrap .q_m.open .qm div ul li{
     font-size: 16px;
-    border: #694176 1px solid;
+    border: #8A4683 1px solid;
     border-radius: 20px;
     height: 23px;
     margin: 0 5px;
     text-align: center;
     padding: 2px 5px;
     line-height: 22px;
-    color: #694176;
+    color: #8A4683;
 
 }
 body #wrap .q_m.open .qm div .listq ul li:hover{
-    background-color: #694176;
+    background-color: #8A4683;
     color: #F0E9F1;
 }
 body #wrap .q_m.open .qm div .listq.act ul li{
-    background-color: #694176;
+    background-color: #8A4683;
     color: #F0E9F1;
 }
 body #wrap .q_m.open .qm div ul li a{
@@ -217,7 +217,7 @@ body #wrap .q_m.open .closeq{
     width: 125px;
     height: 250px;
     border-radius: 0%;
-    background-color: #F0E9F1;
+    background-color: #F9E0E6;
     display: block;
 }
 body #wrap .q_m.open .closeq{
@@ -227,8 +227,8 @@ body #wrap .q_m.open .closeq{
     line-height: 250px;
 }
 body #wrap .q_m.open .closeq p:hover a{
-    color: #694176;
-    border-bottom: #694176 2px solid;
+    color: #8A4683;
+    border-bottom: #8A4683 2px solid;
 }
 /* #nav  */
 header{
@@ -699,7 +699,7 @@ nav .box1 .inner  .menu2  p a span{
         position: absolute;
         top: 0;
         right: 0;
-        background-color: #694176;
+        background-color: #8A4683;
     }
 
     /*#choice  텍스트*/
@@ -796,12 +796,12 @@ nav .box1 .inner  .menu2  p a span{
 
     }
     #teg .inner div ul li{
-        width: 250px;
-        height: 60px;
+        width: 230px;
+        height: 50px;
         border: 1px solid #C4C4C4;
         background-color: #ffffff;
         text-align: center;
-        line-height:60px;
+        line-height:50px;
         margin: 45px 45px;
         box-shadow: 4px 4px 4px #00000025;
     }
@@ -813,18 +813,18 @@ nav .box1 .inner  .menu2  p a span{
         display: block;
     }
     #teg .inner div ul li:hover{
-        border: 1px solid #694176;
+        border: 1px solid #6E324A;
         box-shadow:none;
 
     }
     #teg .inner div ul li:hover a{
-        color:#694176;
+        color:#6E324A;
     }
     #teg .inner div ul li:active{
-        background-color: #694176;
+        background-color: #6E324A;
     }
     #teg .inner div ul li:active a{
-        color:#F0E9F1;
+        color:#F9E0E6;
     }
 
     /*#collect*/
@@ -1031,7 +1031,7 @@ nav .box1 .inner  .menu2  p a span{
     #sns .inner div div{
         width: 288px;
         height: 288px;
-        background-color: #F0E9F1;
+        background-color: #F9E0E6;
         display: block;
     }
     #sns .inner div{
@@ -1043,7 +1043,7 @@ nav .box1 .inner  .menu2  p a span{
 
     /* footer */
     footer .f_top{
-        background-color: #f3f3f3;
+        background-color: #f0eeef;
         margin-bottom: 0px;
     }
     footer .f_top .inner{
@@ -1086,14 +1086,15 @@ nav .box1 .inner  .menu2  p a span{
     }
     /* f_bottom */
     footer .f_bottom{
-        background-color: #c4c4c4;
+        background-color: #543a51;
         padding-top: 40px;
+        color: #efe1e8;
     }
     footer .f_bottom .inner div:first-child{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     footer .f_bottom .inner div:first-child p{
         font-size: 20px;
