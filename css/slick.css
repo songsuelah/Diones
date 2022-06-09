@@ -283,8 +283,8 @@
 }
 .slick-dots li button:hover:before
 {
-    background-color: #694176;
-    border: #694176 1px solid;
+    background-color: #A623A4;
+    border: #A623A4 1px solid;
     opacity: 1;
     border-radius: 50%;
 }
@@ -293,29 +293,29 @@
     font-family: 'slick';
     font-size: 6px;
     line-height: 32px;
-    border: #F0E9F1 1px solid;
+    border: #F9E0E6 1px solid;
     border-radius: 50%;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 
     content: '';
     text-align: center;
 
     opacity: .75;
     color: black;
-    background-color: #F0E9F1;
+    background-color: #F9E0E6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
-    background-color: #694176;
-    border: #694176 1px solid;
+    background-color: #A623A4;
+    border: #A623A4 1px solid;
     opacity: 1;
     border-radius: 50%;
     z-index: 99999999999;
@@ -331,10 +331,33 @@
 #choice .slick-list.draggable{
     height: 928px;
 }
+#choice .slick-dots li button:before{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 32px;
+    border: #F9E0E6 1px solid;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24px;
+    height: 24px;
+
+    content: '';
+    text-align: center;
+
+    opacity: .75;
+    color: black;
+    background-color: #F9E0E6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 #choice .slick-dots li.slick-active button:before
 {
-background-color: #A62287;
-border: #A62287 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 z-index: 99999999999;
@@ -342,8 +365,8 @@ z-index: 99999999999;
 #choice .slick-dots li button:hover:before,
 #choice .slick-dots li button:focus:before
 {
-background-color: #A62287;
-border: #A62287 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 }
@@ -357,8 +380,8 @@ border-radius: 50%;
 }
 #best .slick-dots li.slick-active button:before
 {
-background-color: #694176;
-border: #694176 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 z-index: 99999999999;
@@ -366,8 +389,8 @@ z-index: 99999999999;
 #best .slick-dots li button:hover:before,
 #best .slick-dots li button:focus:before
 {
-background-color: #694176;
-border: #694176 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 
@@ -387,8 +410,8 @@ border-radius: 50%;
 }
 #event .slick-dots li.slick-active button:before
 {
-background-color: #694176;
-border: #694176 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 z-index: 99999999999;
@@ -396,8 +419,8 @@ z-index: 99999999999;
 #event .slick-dots li button:hover:before,
 #event .slick-dots li button:focus:before
 {
-background-color: #694176;
-border: #694176 1px solid;
+background-color: #A623A4;
+border: #A623A4 1px solid;
 opacity: 1;
 border-radius: 50%;
 
@@ -418,42 +441,60 @@ border-radius: 50%;
     top: 136px;
 }
 #notice .slick-prev{
-    background-image: url(../images/1x/left.png);
+    border: #A623A4 1px solid;
     width: 50px;
     height: 50px;
-    background-size: 50px;
     left: -23.4%;
 }
 #notice .slick-prev:hover{
-    background-image: url(../images/1x/left_h.png);
+    background-color: #A623A4;
 }
 #notice .slick-prev:active{
-    background-image: url(../images/1x/left_c.png);
+
 }
 #notice .slick-next{
-    background-image: url(../images/1x/right.png);
+    border: #A623A4 1px solid;
     width: 50px;
     height: 50px;
-    background-size: 50px;
     left: -20%;
 
 }
 #notice .slick-next:hover{
-    background-image: url(../images/1x/right_h.png);
+    background-color: #A623A4;
 }
 #notice .slick-next:active{
-    background-image: url(../images/1x/right_c.png);
 }
 
 #notice .slick-prev:before{
-    content: '';
-    color:#555;
+    content: '◀';
+    color:#A623A4;
     opacity: 1;
+    position: relative;
+    top: -5%;
+    left: -3%;
 
 }
 #notice .slick-next:before{
-    content: '';
-    color:#555;
+    content: '▶';
+    color:#A623A4;
     opacity: 1;
+    position: relative;
+    top: -5%;
+    left: 3%;
+}
+#notice .slick-prev:hover:before{
+    content: '◀';
+    color:#F9E0E6;
+    opacity: 1;
+    position: relative;
+    top: -5%;
+    left: -3%;
+}
+#notice .slick-next:hover:before{
+    content: '▶';
+    color:#F9E0E6;
+    opacity: 1;
+    position: relative;
+    top: -5%;
 }
 
