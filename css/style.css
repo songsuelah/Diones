@@ -1028,6 +1028,14 @@ nav .box1 .inner  .menu2  p a span{
         text-align: center;
         margin-bottom: 80px;
     }
+    #sns h4{
+        text-align: center;
+        margin-top: 45%;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        color: #8A4683;
+    }
     #sns .inner div div{
         width: 288px;
         height: 288px;
