@@ -258,10 +258,12 @@ nav .inner>div{
 }
 nav .n3{
     display: flex;
+
 }
 nav .inner .nav{
     display: flex;
 }
+
 nav .inner .wish{
     margin-left: 60px;
 }
@@ -285,21 +287,26 @@ nav h2{
 nav .menui{
     display: flex;
     justify-content: flex-end;
+
+}
+nav .menui p{
+    margin-right: 100px;
 }
 
 nav .nav{
     background-image: url(../images/2x/Artboard-12@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
+    margin-left: 100px;
 }
 nav .wish{
     background-image: url(../images/2x/Artboard-10@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
 }
 nav .menui a{
     background-image: url(../images/2x/Artboard-11@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
 }
 
@@ -315,21 +322,21 @@ header.fix nav .nav img:first-child{
 }
 header.fix nav .nav{
     background-image: url(../images/2x/Artboard\ 12@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
     z-index:109;
 
 }
 header.fix nav .wish{
     background-image: url(../images/2x/Artboard\ 10@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
     z-index:109;
 
 }
 header.fix nav .menui a{
     background-image: url(../images/2x/Artboard\ 11@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
     z-index:109;
 }
@@ -357,6 +364,9 @@ header .box1 .menu34 {
 }
 header .box1 .menu34.closs{
     display: none;
+}
+header .box1 .menu34>div{
+    margin-left: 100px;
 }
 header .box1 .menu34 ul li{
     margin-bottom: 10px;
@@ -466,15 +476,14 @@ nav .box1 .menui{
     display: flex;
     justify-content: flex-end;
 }
-
 nav .box1 .n3 .nav a{
     background-image: url(../images/2x/Artboard-12@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
 }
 nav .box1 .n3 .wish a{
     background-image: url(../images/2x/Artboard-10@2x.png);
-    background-size: 64px;
+    background-size: 48px;
     background-repeat: no-repeat;
 }
 
@@ -485,12 +494,15 @@ nav .box1 .inner  .menu2 p{
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
+    margin-right: 115px;
+    align-items: center;
 }
 nav .box1 .inner  .menu2 p a{
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     position: relative;
+
 }
 nav .box1 .inner  .menu2  p a span{
     background-color:#fff;
@@ -522,12 +534,12 @@ nav .box1 .inner  .menu2  p a span{
   }
 
   nav .box1 .inner  .menu2.closs  p a span:nth-child(1){
-    left:30px;
+    left:23px;
 
     transform: rotate(45deg);
 }
   nav .box1 .inner  .menu2.closs  p a span:nth-child(2){
-    right: 30px;
+    right: 23px;
 
     transform: rotate(-45deg);
 }
@@ -571,7 +583,7 @@ nav .box1 .inner  .menu2  p a span{
   .slider-for .s1 li:nth-child(5){
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     text-align: right;
     margin-top: 60px;
   }
@@ -597,7 +609,7 @@ nav .box1 .inner  .menu2  p a span{
     .slider-for .s2 li:nth-child(4){
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     text-align: right;
     margin-top: 60px;
     }
@@ -623,7 +635,7 @@ nav .box1 .inner  .menu2  p a span{
     .slider-for .s3 li:nth-child(4){
       font-family: 'Times New Roman', Times, serif;
       font-weight: 400;
-      font-size: 36px;
+      font-size: 32px;
       text-align: right;
       margin-top: 60px;
     }
@@ -649,7 +661,7 @@ nav .box1 .inner  .menu2  p a span{
     .slider-for .s4 li:nth-child(4){
       font-family: 'Times New Roman', Times, serif;
       font-weight: 400;
-      font-size: 36px;
+      font-size: 32px;
       text-align: right;
       margin-top: 60px;
     }
@@ -661,7 +673,7 @@ nav .box1 .inner  .menu2  p a span{
     }
     #choice {
         position: relative;
-        margin-bottom: 600px;
+        margin-bottom: 300px;
     }
     #choice h3{
         margin-bottom: 150px;
@@ -671,6 +683,7 @@ nav .box1 .inner  .menu2  p a span{
         font-weight: 700;
         font-size: 64px;
     }
+
 
     #choice .rr5 {width:100%;margin:0 auto; position: relative;}
     #choice .slider-cho1{
@@ -723,8 +736,11 @@ nav .box1 .inner  .menu2  p a span{
     }
     #choice p:nth-child(2){
         font-size: 24px;
-        font-weight: 700;
+        font-weight: 400;
         margin-bottom: 5px;
+    }
+    #choice p:nth-child(3){
+        
     }
     #choice article{
         padding-top: 135px;
@@ -732,7 +748,7 @@ nav .box1 .inner  .menu2  p a span{
     
 
     /*#best*/
-    #best{position: relative; margin-bottom: 300px;}
+    #best{position: relative; margin-bottom: 250px;}
     #best h3{
         margin-bottom: 150px;
         font-family: 'Times New Roman', Times, serif;
@@ -787,7 +803,7 @@ nav .box1 .inner  .menu2  p a span{
 
     /*#teg*/
 
-    #teg{ margin-bottom: 300px;}
+    #teg{ margin-bottom: 200px;}
     #teg .inner div ul{
     display: flex;
     flex-direction: row;
@@ -830,7 +846,7 @@ nav .box1 .inner  .menu2  p a span{
     /*#collect*/
     #collect{
         position: relative;
-        margin-bottom: 800px;
+        margin-bottom: 700px;
     }
     #collect img{ max-width: 100%; position: absolute; }
     #collect .coll{
@@ -960,11 +976,11 @@ nav .box1 .inner  .menu2  p a span{
     }
     #event .event .text3 p:nth-child(2),
     #event .event .text3 p:nth-child(3){
-        font-size: 20px
+        font-size: 22px
     }
     /* #notice */
     #notice{
-        margin-bottom: 100px;
+        margin-bottom: -150px;
     }
 
     #notice .notice_b{
@@ -993,13 +1009,13 @@ nav .box1 .inner  .menu2  p a span{
         z-index: 99999999999999;
         top : 43px;
         position: absolute;
-        left: 25%;
+        left: 20%;
     }
     #notice .inner .text2{
-        left:20%
+        left:15%
     }
     #notice .inner .text3{
-        left:15%;
+        left:10%;
     }
     #notice .text p:first-child{
         font-size: 30px;
@@ -1007,7 +1023,8 @@ nav .box1 .inner  .menu2  p a span{
     }
     #notice .text p:nth-child(2){
         margin-bottom: 60px;
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: 200;
     }
 /* #sns */
 
@@ -1069,14 +1086,14 @@ nav .box1 .inner  .menu2  p a span{
     footer .f_top .inner>div h4{
         font-family: 'Times New Roman', Times, serif;
         font-weight: 400;
-        font-size: 36px;
+        font-size: 32px;
         margin-bottom: 30px;
     }
     footer .f_top .inner div:nth-child(3) h4{
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
     footer .f_top .inner>div p{
-        font-size: 20px;
+        font-size: 18px;
     }
     footer .f_top .inner>div p span{
         font-family: 'Times New Roman', Times, serif;
@@ -1105,15 +1122,17 @@ nav .box1 .inner  .menu2  p a span{
         margin-bottom: 100px;
     }
     footer .f_bottom .inner div:first-child p{
-        font-size: 20px;
+        font-size: 16px;
         margin-right: 40px;
+        font-weight: 100;
     }
     footer .f_bottom .inner div:nth-of-type(2) p:last-child{
         padding-top: 50px;
         padding-bottom: 20px;
     }
     footer .f_bottom .inner div:nth-of-type(2) p{
-        font-size: 14px;
+        font-size: 12px;
+        font-weight: 100;
     }
     footer .f_bottom .inner div:nth-of-type(2) p:first-child{
         margin-bottom: 5px;

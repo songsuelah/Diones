@@ -230,7 +230,7 @@
 {
     position: absolute;
     bottom: 26px;
-    right: -19%;
+    right: -21%;
 
     display: block;
 
@@ -251,7 +251,7 @@
 
     width: 32px;
     height: 32px;
-    margin: 0 30px;
+    margin: 0 1rem;
     padding: 0;
 
     cursor: pointer;
@@ -300,8 +300,8 @@
     top: 0;
     left: 0;
 
-    width: 24px;
-    height: 24px;
+    width: 1.2rem;
+    height: 1.2rem;
 
     content: '';
     text-align: center;
@@ -340,10 +340,10 @@
 
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0%;
 
-    width: 24px;
-    height: 24px;
+    width: 1.2rem;
+    height: 1,2rem;
 
     content: '';
     text-align: center;
